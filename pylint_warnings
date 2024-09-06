@@ -1,0 +1,9 @@
+Pylint found 7 conventions  in 1 file
+compare_average.py : 7 conventions 
+Missing module docstring (1:0) [missing-module-docstring]
+Missing class docstring (1:0) [missing-class-docstring]
+Missing function or method docstring (6:4) [missing-function-docstring]
+Missing function or method docstring (12:4) [missing-function-docstring]
+Missing class docstring (16:0) [missing-class-docstring]
+Missing function or method docstring (21:4) [missing-function-docstring]
+Missing function or method docstring (37:4) [missing-function-docstring]
