@@ -4,6 +4,8 @@ class List:
 
     # Find average
     def find_average(self):
+        if not isinstance(self.newlist, list):
+            raise TypeError("Input should be a list")
         if not self.newlist:
             return 0
         return sum(self.newlist) / len(self.newlist)
@@ -23,8 +25,9 @@ class Comparator:
         print(self.newobjlist2.newlist)
 
         avg1 = self.newobjlist1.find_average()
-        avg2 = self.newobjlist2.find_average()
         print(avg1)
+
+        avg2 = self.newobjlist2.find_average()
         print(avg2)
 
         if avg1 > avg2:
