@@ -1,27 +1,27 @@
 import pytest
 
-from compare_average import *
+from compare_average import List,Comparator
 
 
 class TestList:
 
     def test_find_average(self):
-        list = List([1, 2, 6])
-        assert list.find_average() == 3
+        list1 = List([1, 2, 6])
+        assert list1.find_average() == 3
 
-        list = List([1, 2, 6, 7])
-        assert list.find_average() == 4
+        list2 = List([1, 2, 6, 7])
+        assert list2.find_average() == 4
 
-        list = List([])
-        assert list.find_average() == 0
+        list3 = List([])
+        assert list3.find_average() == 0
 
-        list = List("notalist")
+        list4 = List("notalist")
         with pytest.raises(TypeError):
-            assert list.find_average()
+            assert list4.find_average()
 
     def test_dummy(self):
-        list = List([1, 2, 6])
-        assert list.dummy() == None
+        dummy = List([1, 2, 6])
+        assert dummy.dummy() is None
 
 
 class TestComparator:
@@ -38,4 +38,4 @@ class TestComparator:
 
     def test_dummy(self):
         comparator = Comparator([1, 2, 6], [1, 2, 6, 7])
-        assert comparator.dummy() == None
+        assert comparator.dummy() is None
