@@ -1,0 +1,6 @@
+Name                      Stmts   Miss  Cover
+---------------------------------------------
+compare_average.py           32      0   100%
+test_compare_average.py      27      0   100%
+---------------------------------------------
+TOTAL                        59      0   100%
