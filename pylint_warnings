@@ -1,9 +1,24 @@
-Pylint found 7 conventions  in 1 file
-compare_average.py : 7 conventions 
-Missing module docstring (1:0) [missing-module-docstring]
-Missing class docstring (1:0) [missing-class-docstring]
-Missing function or method docstring (6:4) [missing-function-docstring]
-Missing function or method docstring (12:4) [missing-function-docstring]
-Missing class docstring (16:0) [missing-class-docstring]
-Missing function or method docstring (21:4) [missing-function-docstring]
-Missing function or method docstring (37:4) [missing-function-docstring]
+************* Module compare_average
+compare_average.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+compare_average.py:1:0: C0115: Missing class docstring (missing-class-docstring)
+compare_average.py:6:4: C0116: Missing function or method docstring (missing-function-docstring)
+compare_average.py:14:4: C0116: Missing function or method docstring (missing-function-docstring)
+compare_average.py:18:0: C0115: Missing class docstring (missing-class-docstring)
+compare_average.py:23:4: C0116: Missing function or method docstring (missing-function-docstring)
+compare_average.py:40:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.81/10 (previous run: 7.81/10, +0.00)
+
+
+************* Module test_compare_average
+test_compare_average.py:6:0: C0115: Missing class docstring (missing-class-docstring)
+test_compare_average.py:8:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_compare_average.py:22:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_compare_average.py:27:0: C0115: Missing class docstring (missing-class-docstring)
+test_compare_average.py:29:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_compare_average.py:39:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.41/10 (previous run: 5.56/10, +1.85)
+
