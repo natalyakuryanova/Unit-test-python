@@ -40,6 +40,7 @@ class Comparator:
     def dummy(self):
         pass
 
+
 # Main code
 test = Comparator([1, 2, 6], [1, 2, 6, 7])
 RES = test.compare()
